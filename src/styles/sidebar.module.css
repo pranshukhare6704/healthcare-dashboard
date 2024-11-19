@@ -1,0 +1,83 @@
+.sidebar {
+    width: 250px;
+    background: #fff;
+    border-right: 1px solid #eee;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .profileInfo h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .profileInfo p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .navItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    color: #666;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .navItem:hover {
+    background: #f5f6fa;
+    color: #333;
+  }
+  
+  .navItem.active {
+    background: #4a90e2;
+    color: white;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }

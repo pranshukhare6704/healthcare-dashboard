@@ -1,0 +1,51 @@
+.tableContainer {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .tableTitle {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .table th {
+    font-weight: 600;
+    color: #666;
+  }
+  
+  .disease {
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #e3f2fd;
+    color: #2196f3;
+    font-size: 14px;
+  }
+  
+  .editButton {
+    padding: 4px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .editButton:hover {
+    background: #357abd;
+  }
