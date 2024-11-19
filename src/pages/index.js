@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '@/components/sidebar'
 import MetricCard from '../components/MetricCard'
 import PatientChart from '../components/PatientChart'
 import HospitalSurvey from '../components/HospitalSurvey'
