@@ -9,7 +9,7 @@ import {
   FaBed, 
   FaWallet 
 } from 'react-icons/fa'
-import styles from '../styles/Sidebar.module.css'
+import styles from '../styles/sidebar.module.css'
 
 export default function Sidebar() {
   const [activeItem, setActiveItem] = useState('dashboard')
